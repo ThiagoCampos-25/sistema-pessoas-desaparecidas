@@ -1,13 +1,15 @@
 # Sistema de Pessoas Desaparecidas - Polícia Civil MT
 
+PROJETO PRÁTICO – IMPLEMENTAÇÃO FRONT-END
+
 Uma Single Page Application (SPA) moderna desenvolvida em JavaScript puro para consulta e envio de informações sobre pessoas desaparecidas em Mato Grosso.
 
 ## 📋 Dados de Inscrição
 
-**Nome:** Thiago Filipe Fernandes Leite Campos
-**Email:** thiago.f.f.l@hotmail.com
-**Telefone:** 65 98119-98544
-**Cidade:** Cuiabá--MT
+- **Nome:** Thiago Filipe Fernandes Leite Campos
+- **Email:** thiago.f.f.l@hotmail.com
+- **Telefone:** 65 98119-98544
+- **Cidade:** Cuiabá--MT
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -81,3 +83,4 @@ http-server . -p 8080 -c-1
 2. Abra o projeto no VS Code
 3. Clique com o botão direito em `index.html`
 4. Selecione "Open with Live Server"
+
