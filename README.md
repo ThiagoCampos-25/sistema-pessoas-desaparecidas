@@ -76,10 +76,11 @@ Uma Single Page Application (SPA) moderna desenvolvida em JavaScript puro para c
 
  ### Método 4: Live Server (VS Code)
 
-- 1. Instale a extensão "Live Server" no VS Code
-- 2. Abra o projeto no VS Code
-- 3. Clique com o botão direito em `index.html`
-- 4. Selecione "Open with Live Server"
+1. Instale a extensão "Live Server" no VS Code
+2. Abra o projeto no VS Code
+3. Clique com o botão direito em `index.html`
+4. Selecione "Open with Live Server"
+
 
 
 
