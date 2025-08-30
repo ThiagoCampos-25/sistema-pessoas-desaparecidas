@@ -25,60 +25,61 @@ Uma Single Page Application (SPA) moderna desenvolvida em JavaScript puro para c
 - Navegador web moderno (Chrome, Firefox, Safari, Edge)
 - Editor de código (VS Code recomendado)
 
-- Instalação e Execução
+### Instalação e Execução
 
-- ### Método 1: Docker (Recomendado)
+ ### Método 1: Docker (Recomendado)
 
 - bash
-- # Clone o repositório
+- Clone o repositório
 - git remote add origin https://github.com/ThiagoCampos-25/sistema-pessoas-desaparecidas.git
 - cd sistema-pessoas-desaparecidas
 
-- # Build da imagem Docker
+- Build da imagem Docker
 - bash
 - docker build -t pessoas-desaparecidas .
 
-- # Execute o container
+- Execute o container
 - bash
 - docker run -p 8080:80 --name app-pessoas pessoas-desaparecidas
 
-- # Acesse a aplicação
+- Acesse a aplicação
 - http://localhost:8080
 
-- ### Método 2: Desenvolvimento Local
+ ### Método 2: Desenvolvimento Local
 
 - bash
-- # Clone o repositório
+- Clone o repositório
 - git remote add origin https://github.com/ThiagoCampos-25/sistema-pessoas-desaparecidas.git
 - cd sistema-pessoas-desaparecidas
 
-- # Instale um servidor HTTP simples
+- Instale um servidor HTTP simples
 - npm install -g http-server
 
-- # Execute o servidor
+- Execute o servidor
 - http-server . -p 8080 -c-1
 
-- # Acesse http://localhost:8080
+- Acesse http://localhost:8080
 
 
-- ### Método 3: Docker (Recomendado)
+ ### Método 3: Docker (Recomendado)
 
 - bash
-- # Clone o repositório
+- Clone o repositório
 - git remote add origin https://github.com/ThiagoCampos-25/sistema-pessoas-desaparecidas.git
 - cd sistema-pessoas-desaparecidas
 
-- # Execute com Docker Compose
+- Execute com Docker Compose
 - docker-compose up -d
 
-- # Acesse http://localhost:8080
+- Acesse http://localhost:8080
   
 
-- ### Método 4: Live Server (VS Code)
+ ### Método 4: Live Server (VS Code)
 
 - 1. Instale a extensão "Live Server" no VS Code
 - 2. Abra o projeto no VS Code
 - 3. Clique com o botão direito em `index.html`
 - 4. Selecione "Open with Live Server"
+
 
 
